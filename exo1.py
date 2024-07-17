@@ -7,7 +7,7 @@
 # if number < 10:
 #    print(f"Plus grand !")
 
-if number > 20:
-    print(f"Plus petit !")
+if number > 400:
+    print(f"Plus grand !")
 
 number_list = []
