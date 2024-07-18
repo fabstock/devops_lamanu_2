@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: apt update  
+      - run: echo "apt update image non modifiable"  
       - run: ls 
       - run: python main.py
 
