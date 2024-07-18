@@ -1,0 +1,500 @@
+  624  git branch -a
+  625  :q
+  626  git checkout feature/tomas2
+  627  git checkout feature/thomas2
+  628  git checkout features/thomas2
+  629  ll 
+  630  man git 
+  631  ls
+  632  ll
+  633  nslookup 45.13.119.249
+  634  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4;
+  635  sudo apk add gpg2
+  636  sudo apk add gpg
+  637  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4;
+  638  apk search dirmngr
+  639  sudo apk add gpg-dirmngr
+  640  sudo apk add gnupg-dirmngr
+  641  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4;
+  642  sudo apk add gpg-agent
+  643  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4;
+  644  cd ..
+  645  ls
+  646  ll
+  647  mkdir GITHUB-ACTIONS
+  648  cd GITHUB-ACTIONS/
+  649  git clone git@github.com:fabstock/Actions.git
+  650  ls
+  651  cd a
+  652  ce Actions/
+  653  ls
+  654  ll
+  655  mkdir .github/workflow -p
+  656  git add .
+  657  mv .github Actions/
+  658  cd Actions/
+  659  git add .
+  660  git commit -m "add mkdir .github/workflow -p"
+  661  git push 
+  662  vi .github/workflow/learn-github-actions.yml 
+  663  git add .
+  664  git commit -m ".github/workflow/learn-github-actions.yml"
+  665  git push 
+  666  ll 
+  667* l .github/workflow/learn-github-actions.yml 
+  668  git add .github/workflow/learn-github-actions.yml 
+  669  git push 
+  670  git commit -m "RE .github/workflow/learn-github-actions.yml"
+  671  git push 
+  672  ls .github/
+  673  mv .github/workflow/ .github/workflows
+  674  git add .
+  675  git commit -m "RE .github/workflowSSSSSSS/learn-github-actions.yml"
+  676  git push 
+  677  vi .github/workflows/learn-github-actions.yml 
+  678  vi .github/workflows/learn-github-actions.yml 
+  679  cd ..
+  680  ls
+  681  git clone git@github.com:fabstock/devops_lamanu_2.git
+  682  ls
+  683  vi api.js 
+  684  vi api.sh
+  685  ls
+  686  ll
+  687  cat Actions/.github/workflows/learn-github-actions.yml 
+  688  ls
+  689  cd devops_lamanu_2/
+  690  ls
+  691  add mkdir .github/workflows -p
+  692  mkdir .github/workflows -p
+  693  vi .github/workflows/main.yml
+  694  git fetch -a 
+  695  git log 
+  696  :q
+  697  git log 
+  698  :q
+  699  git remote -v
+  700  git status
+  701  git branche
+  702  git branches
+  703  git branche
+  704  git branch
+  705  git branch -a
+  706  git rebase
+  707  vi .github/workflows/main.yml
+  708  ls 
+  709  python main.py 
+  710  vi main.py 
+  711  git branch develop
+  712  git branch -a
+  713  :q
+  714  git log
+  715  git status 
+  716  git branch
+  717  git branch develop
+  718  git checkout  develop
+  719  git co  develop
+  720  git ch  develop
+  721  git chec  develop
+  722  git check  develop
+  723  git checkou   develop
+  724  git checkout   develop
+  725  ls
+  726  vi main.py 
+  727  vi main.py 
+  728  python main.py 
+  729  vi main.py 
+  730  python main.py 
+  731  python main.py 
+  732  python main.py 
+  733  python main.py 
+  734  vi main.py 
+  735  python main.py 
+  736  python main.py 
+  737  vi main.py 
+  738  python main.py 
+  739  python main.py 
+  740  vi main.py 
+  741  python main.py 
+  742  python main.py 
+  743  python main.py 
+  744  python main.py 
+  745  python main.py 
+  746  vi main.py 
+  747  python main.py 
+  748  python main.py 
+  749  vi main.py 
+  750  python main.py 
+  751  python main.py 
+  752  vi main.py 
+  753  vi main.py 
+  754  git add .
+  755  git commit -m "test "
+  756  git push 
+  757  git reset -HEAD^1
+  758  vi ../api.sh 
+  759* 
+  760  git log
+  761  vi .github/workflows/main.yml
+  762  git branch -a
+  763  git branch -a 
+  764  git tag 
+  765  git show v0.1-test 
+  766  vi .github/workflows/main.yml
+  767  git add .
+  768  git add . -A
+  769  git commit -m "test de .github/workflows/main.yml"
+  770  git push 
+  771  git push --set-upstream origin develop
+  772  git fetch -a 
+  773  git push --set-upstream origin develop
+  774  git rebase
+  775  git push --set-upstream origin develop -f
+  776  vi .github/workflows/main.yml
+  777  git add . -A
+  778  git commit -m "test2 pas de apt update de .github/workflows/main.yml"
+  779  git push --set-upstream origin develop -f
+  780  git checkout develop
+  781  git checkout -b release-v0.2-test
+  782  git push origin release-v0.1-test
+  783  git push origin release-v0.2-test
+  784  git tag -a v0.2 -m "Release version 0.2-test"
+  785  git push origin release-v0.2-test
+  786  history 
+  787  vi commande-release-tag.txt
+  788  vi .github/workflows/main.yml 
+  789  git describe --tags `git rev-list --tags --max-count=1`
+  790  vi .github/workflows/main.yml 
+  791  ls -laR
+  792  git add . -A
+  793  git commit -m "connaitre la release actuel"
+  794  git branch -a 
+  795  git checkout develop 
+  796  git checkout release-v0.2-test 
+  797  git log
+  798  git status
+  799  git checkout develop 
+  800  git status
+  801  git log
+  802  git status
+  803  ls
+  804  cd ..
+  805  ls
+  806  ll *
+  807  vi devops_lamanu_2/.github/workflows/main.yml 
+  808  git status
+  809  cd devops_lamanu_2/
+  810  ls
+  811  ll
+  812  ll ../
+  813  ll ../devops_lamanu_2/
+  814  ll ../../
+  815  ll ../../../
+  816  ll ../../../ -altr
+  817  ll ../../../LAMANU/ -altr
+  818  ll ../../../LAMANU/  -altR
+  819  find -name *.sh 
+  820  cd ..
+  821  find -name *.sh 
+  822  cat api.sh 
+  823  history 
+  824  find ../../ -name commande-release-tag.txt
+  825  find ../../../ -name commande-release-tag.txt
+  826  find ../../../ -name "commande-release-tag.txt"
+  827  cd ..
+  828  cd ..
+  829  l /tmp/
+  830  ls -l /tmp/
+  831  find -name "commande-release-tag.txt"
+  832  find / -name "commande-release-tag.txt"
+  833  history 
+  834  git describe --tags `git rev-list --tags --max-count=1`
+  835  cd LAMANU/GITHUB-ACTIONS/
+  836  ls
+  837  cd devops_lamanu_2/
+  838  ls
+  839  vi commande-branch-release-tag.txt
+  840  bash ./commande-branch-release-tag.txt
+  841  git describe --tags `git rev-list --tags --max-count=1`
+  842  vi commande-branch-release-tag.txt
+  843  history 
+  844  vi commande-branch-release-tag.txt
+  845  ls
+  846  vi .github/workflows/main.yml 
+  847  apk search yamllint
+  848  sudo apk add yamllint
+  849  yamllint 
+  850  yamllint -f github .github/workflows/main.yml 
+  851  yamllint -f github .github/workflows/main.yml  --no-warnings
+  852  vi .github/workflows/main.yml 
+  853  yamllint -f github .github/workflows/main.yml  --no-warnings
+  854  vi .github/workflows/main.yml 
+  855  yamllint -f github .github/workflows/main.yml  --no-warnings
+  856  vi .github/workflows/main.yml 
+  857  yamllint -f github .github/workflows/main.yml  --no-warnings
+  858  vi .github/workflows/main.yml 
+  859  yamllint -f github .github/workflows/main.yml  --no-warnings
+  860  vi .github/workflows/main.yml 
+  861  yamllint -f github .github/workflows/main.yml  --no-warnings
+  862  vi .github/workflows/main.yml 
+  863  yamllint -f github .github/workflows/main.yml  --no-warnings
+  864  vi .github/workflows/main.yml 
+  865  vi .github/workflows/main.yml 
+  866  vi .github/workflows/main.yml 
+  867  yamllint -f github .github/workflows/main.yml  --no-warnings
+  868  vi .github/workflows/main.yml 
+  869  vi .github/workflows/main.yml 
+  870  yamllint -f github .github/workflows/main.yml  --no-warnings
+  871  vi .github/workflows/main.yml 
+  872  yamllint -f github .github/workflows/main.yml  --no-warnings
+  873  git add . -A
+  874  git log
+  875  ls
+  876  git commit -m "release test"
+  877  git push origin
+  878  vi .github/workflows/main.yml 
+  879* systemd-detect
+  880  vi .github/workflows/main.yml 
+  881  env
+  882  vi .github/workflows/main.yml 
+  883  vi .github/workflows/main.yml 
+  884  vi .github/workflows/main.yml 
+  885  mkdir dossier 
+  886  vi .github/workflows/main.yml 
+  887  mv commande-branch-release-tag.txt dossier/
+  888  git add . -A
+  889  git branc
+  890  git branch
+  891  cat dossier/commande-branch-release-tag.txt 
+  892  git show v0.2-test
+  893  git branch
+  894  git show release-v0.2-test
+  895  cat dossier/commande-branch-release-tag.txt 
+  896  git commit -m "release v0.3"
+  897  git checkout release-v0.3-test
+  898  git branch  release-v0.3-test
+  899  git push --set-upstream origin develop 
+  900  git checkout develop
+  901  git checkout release-v0.3-test 
+  902  git push origin release-v0.3-test
+  903  git checkout main
+  904  git checkout master
+  905  git checkout develop
+  906  git remote -v
+  907  git checkout release-v0.3-test 
+  908  git push origin  master 
+  909  git branch 
+  910  :q
+  911  git checkout develop
+  912  git push origin  master 
+  913  git log 
+  914  vi .github/workflows/main.yml 
+  915  yamllint -f github .github/workflows/main.yml  --no-warnings
+  916  vi .github/workflows/main.yml 
+  917  vi .github/workflows/main.yml 
+  918  yamllint -f github .github/workflows/main.yml  --no-warnings
+  919  cat dossier/commande-branch-release-tag.txt 
+  920  git checkout develop
+  921  git add . -A
+  922  git add . -a
+  923  git add . -A
+  924  git log
+  925  git status
+  926  git commit -m "release v0.4"
+  927  cat dossier/commande-branch-release-tag.txt 
+  928  git file
+  929  git files
+  930  git ls-files
+  931  ls
+  932  vi .github/workflows/main.yml 
+  933  vi REAME.md
+  934  vi README.md
+  935  cat dossier/commande-branch-release-tag.txt 
+  936  vi README.md
+  937  git add . -A
+  938  git commit -m "release v0.4"
+  939  git checkout -b release-v0.4-test
+  940  git push origin release-v0.4-test
+  941  git push origin develop
+  942  git checkout -b release-v0.4-test
+  943  git checkout 
+  944  git checkout develop 
+  945  touch dossier/1.txt
+  946  git add . -A
+  947  git log
+  948  git status
+  949  git commit -m "test"
+  950  git push 
+  951  vi .github/workflows/main.yml 
+  952  vi dossier/1.txt 
+  953  vi dossier/1.txt 
+  954  vi .github/workflows/main.yml 
+  955  git add .
+  956  git log
+  957  git diff --staged
+  958  git commit -m "test"
+  959  git push 
+  960  git diff
+  961  git diff --staed 
+  962  git diff --staged 
+  963  git diff --all
+  964  history 
+  965  yamllint -f github .github/workflows/main.yml  --no-warnings
+  966  vi dossier/1.txt 
+  967  vi dossier/1.txt 
+  968  git add .
+  969  git diff --staged 
+  970  git diff 
+  971  git diff --staged 
+  972  git commit -m "yamllint -f github .github/workflows/main.yml  --no-warnings"
+  973  git push 
+  974  cat dossier/commande-branch-release-tag.txt 
+  975  git tag -a v0.4 -m "Release version 0.4-test"
+  976  git branch -a 
+  977  history |grep tag -C2
+  978  history |grep tag -C4
+  979  git checkout release-v0.4-test
+  980  git log
+  981  ll dossier/
+  982  ll dossier/commande-branch-release-tag.txt 
+  983  cat  dossier/commande-branch-release-tag.txt 
+  984  cat  dossier/commande-branch-release-tag.txt 
+  985  vi dossier/commande-branch-release-tag.txt 
+  986  vi dossier/commande-branch-release-tag.txt 
+  987  vi dossier/commande-branch-release-tag.txt 
+  988  git describe --tags `git rev-list --tags --max-count=1`
+  989  git commit -m "v0.4"
+  990  git add .
+  991  git commit -m --append  "v0.4"
+  992  git commit -m -append  "v0.4"
+  993  git commit --append -m  "v0.4"
+  994  git commit -append -m  "v0.4"
+  995  git commit -ammend -m  "v0.4"
+  996  git diff --staged 
+  997  git diff 
+  998  git diff --staged 
+  999  git log
+ 1000  git commit -a  -m  "v0.4"
+ 1001  git log
+ 1002  git push 
+ 1003  git push --set-upstream origin release-v0.4-test
+ 1004  rm ../devops_lamanu_2/ -rf
+ 1005  cd ..
+ 1006  git clone git@github.com:fabstock/devops_lamanu_2.git
+ 1007  git branche
+ 1008  git branch
+ 1009  git branch -a
+ 1010  cd devops_lamanu_2/
+ 1011  git branch -a
+ 1012  git remote -v
+ 1013  ls
+ 1014  ll dossier/
+ 1015  vi .github/workflows/main.yml 
+ 1016  vi .gitignore
+ 1017  ls
+ 1018  ls
+ 1019  ll
+ 1020  git branch
+ 1021  git branch -b feature/fab-releases
+ 1022  git branch  feature/fab-releases
+ 1023  git checkout   feature/fab-releases
+ 1024  ls
+ 1025  git diff 
+ 1026  git diff  --staged
+ 1027  git status
+ 1028  vi README.md 
+ 1029  git add .
+ 1030  git commit -m "new branch feature/fab"
+ 1031  git commit -a -m "new branch feature/fab-releases"
+ 1032  git push --set-upstream origin feature/fab-releases
+ 1033  cat  dossier/commande-branch-release-tag.txt 
+ 1034  git tag -a v0.5 -m "Release version 0.5-test"
+ 1035  git push --set-upstream origin 
+ 1036  git show tag
+ 1037  git tag show 
+ 1038  git tag show --stagged
+ 1039  git tag show -1
+ 1040  git tag show
+ 1041  git tag -d show
+ 1042  git show 
+ 1043  git push
+ 1044  git branch -a
+ 1045  git tag
+ 1046  git tag show
+ 1047  git tag -l
+ 1048  git tag -d show
+ 1049  git tag -d v0.1-test
+ 1050  git tag -d show
+ 1051  git tag -l
+ 1052  vi .github/workflows/main.yml 
+ 1053  vi .github/workflows/main.yml 
+ 1054  history |grep push 
+ 1055  history |less
+ 1056  git tag -d show
+ 1057  git tag -l
+ 1058  git branch -a
+ 1059  git checkout master 
+ 1060  git tag -l
+ 1061  git branch -a
+ 1062  git push v0.5 
+ 1063  git tag -l
+ 1064  git branch -a
+ 1065  git push --set-upstream origin  v0.5
+ 1066  vi .github/workflows/main.yml 
+ 1067  git branch -a
+ 1068  git feature/fab-releases
+ 1069  git che feature/fab-releases
+ 1070  git checkout  feature/fab-releases
+ 1071  git log
+ 1072  git status
+ 1073  git diff --staeged
+ 1074  git diff --stagged
+ 1075  git diff -stagged
+ 1076  git diff
+ 1077  vi .github/workflows/main.yml 
+ 1078  git commit -m "yamllint -f github .github/workflows/main.yml  --no-warnings"
+ 1079  yamllint -f github .github/workflows/main.yml
+ 1080  yamllint -f github .github/workflows/main.yml --no-warnings
+ 1081  git tag -l
+ 1082  git tag -l
+ 1083  git tag -d v0.5
+ 1084  vi .github/workflows/main.yml 
+ 1085  git branch -a
+ 1086  git branch 
+ 1087  git push --set-upstream origin  master
+ 1088  git push --set-upstream origin  master -f 
+ 1089  git checkout master 
+ 1090  git pull 
+ 1091  git checkout features/thomas2
+ 1092  git checkout feature/fab-releases 
+ 1093  git push --set-upstream origin  master 
+ 1094  git checkout master 
+ 1095  cat .github/workflows/main.yml 
+ 1096  git branch 
+ 1097  git log
+ 1098  git checkout feature/fab-releases 
+ 1099  git log
+ 1100  git checkout master 
+ 1101  git branch -a
+ 1102  git merge feature/fab-releases
+ 1103  git log
+ 1104  git push master 
+ 1105  git push origin  master 
+ 1106  git tag -l
+ 1107  git tag -d v0.1-test
+ 1108  git tag -d v0.5
+ 1109  git tag -l
+ 1110  git push --delete origin v0.1-test   master 
+ 1111  git push --delete origin v0.1-test  
+ 1112  git push --delete origin v0.5  
+ 1113  git checkout master 
+ 1114  vi .github/workflows/main.yml 
+ 1115  vi .github/workflows/main.yml 
+ 1116  yamllint -f github .github/workflows/main.yml --no-warnings
+ 1117  yamllint -f github .github/workflows/main.yml 
+ 1118  vi .github/workflows/main.yml 
+ 1119  git status
+ 1120  git add .
+ 1121  git commit -m "yamllint -f github .github/workflows/main.yml  --no-warnings"
+ 1122  git push origin  master 
+ 1123  history >command-merge-tag-set-upstream-origin.txt
