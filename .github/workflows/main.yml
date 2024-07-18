@@ -1,12 +1,18 @@
-run-name: ${{ github.actor }} for la Manu Test
-on: [push]
+run-name: ${{ github.actor }} Release la Manu Test
+on:
+  push:
+    tags:
+      - '*'
 jobs:
-  commandls :
+  commandls:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - run: echo "apt update image non modifiable"  
-      - run: ls 
+      - uses: actions/checkout@v3
+      - run: echo "apt update image non modifiable"
+      - run: ls
       - run: python main.py
-
+      - uses: ncipollo/release-action@v1
+        with:
+        artifacts: "release.tar.gz,foo/*.txt"
+        bodyFile: "body.md"
