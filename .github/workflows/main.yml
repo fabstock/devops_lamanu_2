@@ -1,0 +1,10 @@
+run-name: ${{ github.actor }} for la Manu Test
+on: [push]
+jobs:
+  commandls :
+    runs-on: ubuntu-latest
+    steps:
+      - run: apt update  
+      - run: ls 
+      - run: python main.py
+
