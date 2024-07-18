@@ -1,5 +1,6 @@
 git describe --tags `git rev-list --tags --max-count=1`
 
+git tag -a v0.4 -m "Release version 0.4-test"
 
 
 
