@@ -7,13 +7,13 @@ jobs:
   new_release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - run: echo "apt update image non modifiable"
       - run: ls
       - run: systemd-detect-virt
       - run: env
       - run: python main.py
-      - uses: ncipollo/release-action@v1
+      - uses: actions/checkout@v4
+      - uses: ncipollo/release-action@v1.14.0
         with:
         artifacts: "release.tar.gz,dossier/*.txt"
         bodyFile: "body.md"
