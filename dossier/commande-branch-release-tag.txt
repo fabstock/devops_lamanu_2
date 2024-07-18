@@ -1,0 +1,46 @@
+git describe --tags `git rev-list --tags --max-count=1`
+
+
+
+
+git tag
+git show v0.1-test
+#vi .github/workflows/main.yml
+git add .
+git add . -A
+git commit -m "test de .github/workflows/main.yml"
+git push
+git push --set-upstream origin develop
+git fetch -a
+git push --set-upstream origin develop
+git rebase
+git push --set-upstream origin develop -f
+# vi .github/workflows/main.yml
+git add . -A
+git commit -m "test2 pas de apt update de .github/workflows/main.yml"
+git push --set-upstream origin develop -f
+git checkout develop
+git checkout -b release-v0.2-test
+git push origin release-v0.1-test
+git push origin release-v0.2-test
+git tag -a v0.2 -m "Release version 0.2-test"
+git push origin release-v0.2-test
+  
+commande-release-tag.txt
+vi .github/workflows/main.yml
+git describe --tags `git rev-list --tags --max-count=1`
+
+  790  vi .github/workflows/main.yml
+  791  ls -laR
+  792  git add . -A
+  793  git commit -m "connaitre la release actuel"
+  794  git branch -a
+  795  git checkout develop
+  796  git checkout release-v0.2-test
+  797  git log
+  798  git status
+  799  git checkout develop
+  800  git status
+  801  git log
+  802  git status
+
